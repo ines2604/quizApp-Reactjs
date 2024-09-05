@@ -1,0 +1,111 @@
+.App{
+    font-family: 'Roboto', sans-serif; /* Police plus moderne */
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.header{
+    background: linear-gradient(135deg, #007bff, #0056b3); /* Ajout d'un dégradé */
+    color: #fff;
+    border-bottom: none; /* Suppression de la bordure */
+    border-radius: 12px; /* Bordures plus arrondies */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajout d'une ombre */
+}
+
+.header h1{
+    font-size: 24px; /* Taille un peu plus grande pour le titre */
+    margin: 0;
+    text-align: center;
+}
+
+.header h2{
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 300;
+}
+
+button {
+    padding: 12px 20px; /* Plus de padding pour les boutons */
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Transition douce pour les changements d'état */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.menu p, .Quiz p{
+    font-size: 18px; /* Texte légèrement plus grand */
+    margin: 10px 0;
+    color: #555; /* Couleur du texte un peu plus douce */
+}
+
+.menu,.Quiz{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Ombre pour le menu */
+}
+
+.question{
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    margin: 0px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.question:hover ,.selected{
+    background-color: #fff;
+    color: #007bff;
+    border: 2px solid #007bff;
+}
+
+.resPage p {
+    margin: 15px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #444;
+}
+
+.butt button {
+    margin: 20px 0;
+}
+
+.resPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
